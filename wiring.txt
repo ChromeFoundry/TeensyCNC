@@ -1,19 +1,20 @@
-X motor A = PTD6 (PWM)
-X motor B = PTD5 (PWM)
+Cricut       Tensey 3.1/3.2         Tensey 4.0/4.1      Teensy LC
+X motor A = PTD6 (PWM)              AD_B1_11	           PTD6
+X motor B = PTD5 (PWM)              AD_B1_10	           PTD5
 
-Y motor A = PTC2 (PWM)
-Y motor B = PTC1 (PWM)
+Y motor A = PTC2 (PWM)              AD_B1_09	           PTC2
+Y motor B = PTC1 (PWM)              AD_B1_08	           PTC1
 
-Y encoder A = PTB1 (Interrupt)
-Y encoder B = PTB0 (Interrupt)
+Y encoder A = PTB1 (Interrupt)      AD_B1_06	           PTB1
+Y encoder B = PTB0 (Interrupt)      AD_B1_07	           PTB0
 
-X encoder A = PTC6 (Interrupt)
-X encoder B = PTC7 (Interrupt)
+X encoder A = PTC6 (Interrupt)      B0_02	               PTC6
+X encoder B = PTC7 (Interrupt)      B0_01	               PTC7
 
-Load button = PTD1 (Interrupt)
+Load button = PTD1 (Interrupt)      AD_B1_02	           PTD1
 
-LED Enable = +3.3v
+LED Enable = +3.3v                  +3.3v                +3.3v
 
-Head solenoid = PTC5 (Output)
+Head solenoid = PTC5 (Output)       B0_03, LED	         PTC5, LED
 
-Ground = Ground
+Ground = Ground                     Ground		           Ground
